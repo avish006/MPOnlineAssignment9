@@ -11,6 +11,7 @@ Welcome to the MPOnline Assignment repository! This repository contains a compre
 6. [Lunar Lander RL Agent Training](#6-lunar-lander-rl-agent-training)
 7. [Movie Recommendation System](#7-movie-recommendation-system)
 8. [End-to-End Render Deployment Project](#8-end-to-end-render-deployment-project)
+9. [RAG Chatbot Streamlit Deployment (Capstone Project)](#9-rag-chatbot-streamlit-deployment-capstone-project)
 
 ---
 
@@ -76,6 +77,14 @@ This project builds a personalized recommendation engine to predict what rating 
 The final step of the ML lifecycle: Deployment. This project provides a template for deploying a Python-based model to the web using Render.com.
 - **Tools:** `FastAPI`, `Uvicorn`.
 - **Highlights:** Includes a lightweight `app.py` script that exposes a `/predict` REST endpoint. It also includes the necessary `requirements.txt` and `render.yaml` configuration files for seamless Infrastructure-as-Code deployment on Render.
+
+### 9. RAG Chatbot Streamlit Deployment (Capstone Project)
+**Folder:** `9_RAG_Streamlit_Deployment`
+
+This capstone project features a Retrieval-Augmented Generation (RAG) chatbot application built and deployed on Streamlit Community Cloud.
+- **Tools:** `Streamlit`, `LangChain`, Vector Database.
+- **Live Demo:** [https://avish006-rag-streamlit-app-myjhxf.streamlit.app/](https://avish006-rag-streamlit-app-myjhxf.streamlit.app/)
+- **Highlights:** Implements RAG to query over custom documents. The application provides an interactive chat interface directly in the browser using Streamlit, allowing users to ask questions and receive context-aware responses from the language model based on the retrieved data.
 
 ## Setup & Installation
 
