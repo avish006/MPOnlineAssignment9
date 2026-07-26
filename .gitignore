@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.env
+
+# Data files
+*.csv
+*.zip
+*.npz
+*.gz
+
+# Model weights and artifacts
+*.h5
+*.pb
+ppo_cartpole.zip
+ppo_lunar_lander.zip
+
+# Logs and outputs
+*.log
+*.png
+model_summary.txt
